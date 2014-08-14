@@ -1,0 +1,273 @@
+<!--
+* Author: Vincent Redmond
+* Assignment: WE3.0 Mobile Web Applications, Digital Skills Academy
+* Student ID: D13126159
+* Date : 2014/04/02
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+      <title>Sub Pop Discog</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <link rel="stylesheet" href="css/themes/discog.css" />
+      <link rel="stylesheet" href="css/themes/jqm-icon-pack-fa.css" />
+      <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+      <link rel="stylesheet" href="jquery.mobile-1.4.2/jquery.mobile.structure-1.4.2.min.css" />
+		    
+      <script src="jquery-1.11.0/jquery-1.11.0.min.js"></script>
+      <script src="jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+   </head>
+   <body>
+   <!-- Popup div child of body so it can be called from any page created.
+         Same iframe used for all vids, injected with YouTube API and addVidUrl() function -->
+   <div data-role="popup" id="popup" data-dismissible="false" data-theme="a" data-overlay-theme="b" class="ui-content" data-tolerance="15,15">
+      <!-- YouTube Iframe Player is injected here--> 
+      <div id="player"></div>
+      <!-- YouTube API stopVideo() used when popup is closed, necessary as JQM iframe vid keeps playing in background when popup closed --> 
+      <a href="#" onclick="player.stopVideo();closeFunction();" data-rel="back" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Cancel</a>
+   </div>
+   <div id="artistPages">
+      <!-- All other info popups dynamically injected here from JSON -->
+      <div id="artistPopups"></div>
+      <!-- Side Panel dynamically injectect from JSON-->      
+      <div class="panel left" data-role="panel" data-display="overlay" data-theme="a" id="artistPanel">
+         <ul data-role="listview" id="panelList">
+            <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+            <li data-icon="home"><a href="#pageOne">Home</a></li>
+            <li></li>
+         </ul>
+         <ul data-role="listview" id="infolList">
+            </br></br>
+            <li data-icon="info"><a href="#">App Usage?</a></li>
+            <p style="text-align: center;">Just search for Artists from the Sub Pop Label to list the Artists' Discography and find info about each album.</p>
+            <p style="text-align: center;">You can and also play YouTube videos of the album tracks.</P></br>
+         </ul>
+      </div>
+      <!-- Main Page-->
+      <div data-role="page" id="pageOne">
+         
+         <div data-role="header" data-position="fixed"> 
+            <h1>Sub Pop Discog</h1>
+            <a href="#artistPanel" data-icon="bars" data-iconpos="notext"> >Menu</a>
+         </div> 
+      
+         <div data-role="content">
+            <div class="content-primary">
+               <!-- Artist List Dynamically Injected from JSON -->
+               <ul id="artistList" data-role="listview" data-filter="true" data-filter-placeholder="Search Artists..." data-inset="true" data-split-icon="info">
+               </ul>
+            </div>
+         </div>
+         <!-- footer with home button-->
+         <div data-role="footer" data-id="main-footer" data-position="fixed" data-tap-toggle="false" >
+            <div class="ui-grid-solo" style="text-align: center;">
+               <div class="ui-block-a">
+                  <a href="#pageOne" class="ui-shadow ui-btn ui-mini ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" >Home</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+   <script type="text/javascript">
+   //Main script to dynamically inject pages from artists.json file
+   $.getJSON("http://localhost/discogWebService/index.php/artist/get_artist_info/", function(result){
+    console.log(result);
+
+      $.each(result, function(key, value){
+
+         var artistName = value.artistName;
+         //console.log(value.thumbnail);
+         var absoluteArtistName = artistName.replace(/\'| |\./g,"");
+         //var albumCount = value.albums.length;
+         var albumCount = value.albumCount;
+         //Dynamically inject list of artists into main page listview with links to their own dynamically injected pages
+         //data-filtertext is used to exclude "Discography" from the search.
+         $("#artistList").append('<li data-filtertext="' + value.artistName + '"><a href="#' + absoluteArtistName + 'Page" data-transition="slide"><img src="' + value.artistThumbnail + '">' +
+                                 '<h2>' + value.artistName + '</h2>' +
+                                 '<p>Discography</p>' +
+                                 '<a href="#popup' +absoluteArtistName+'" data-rel="popup" data-position-to="window" data-transition="slidedown"></a>' +
+                                 '</li>');
+                                    
+         $('#artistList').listview('refresh');
+         //Dynamically inject list of artists into side panel with links to their own dynamically injected pages
+         $("#panelList").append('<li data-icon="search"><a href="#' + absoluteArtistName + 'Page" data-transition="slide">' + artistName + '</a></li>');
+               
+         $('#panelList').listview('refresh');
+               
+         $("#artistPanel").trigger("updatelayout");
+         //Dynamically inject artist info into popups       
+         $("#artistPopups").append('<div data-role="popup" id="popup' + absoluteArtistName + '" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">' +
+                                   '<div role="main" class="ui-content">' +
+                                   '<h3>' + artistName + '</h3></br>' +
+                                   '<h4>Bio:</h4>' +
+                                   '<p>' + value.bio + '</p></br>' +
+                                   '<h4>Genres:</h4>' +
+                                   '<p>' + value.genres + '...</p></br>' +
+                                   '<p><strong>Releases: </strong>' + albumCount + ' albums.</p>' +
+                                   '<a href="index.html" data-transition="slideup" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Cancel</a>' +
+                                   '</div>');
+                                          
+         $('#popup' + absoluteArtistName).popup();
+
+         //Dynamically inject artists own pages with listview for their albums
+         $('#artistPages').append('<div data-role="page" id="' + absoluteArtistName + 'Page">' +
+                                    '<div data-role="header" data-position="fixed">' + 
+                                    '<h1>Sub Pop Discog</h1>' +
+                                    '<a href="#artistPanel" data-icon="bars" data-iconpos="notext"> >Menu</a>' +
+                                    '<a href="#" data-icon="back" data-rel="back" data-iconpos="notext"></a>' +
+                                    '</div>' + 
+                                    '<div data-role="content"> ' +
+                                    '<ul id="' + absoluteArtistName + 'AlbumList" data-role="listview" data-filter="true" data-filter-placeholder="Search Albums..." data-inset="true" data-split-icon="info">' +
+                                    '</ul>' +
+                                    '</div>' +
+                                    '<div data-role="footer" data-id="main-footer" data-position="fixed" data-tap-toggle="false" >' +
+                                    '<div class="ui-grid-solo" style="text-align: center;">' +
+                                    '<div class="ui-block-a">' +
+                                    '<a href="#pageOne" data-transition="pop" class="ui-shadow ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" >Home</a>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '</div>');
+     });
+       $.getJSON("http://localhost/discogWebService/index.php/album/get_album_info_detailed/", function(result){
+    console.log(result);
+
+         $.each(result, function(key, value){
+
+            var albumName = value.albumName;
+            var absoluteAlbumName = albumName.replace(/\'| |\.|\,/g,"");
+            var artistName = value.artistName;
+            var absoluteArtistName = artistName.replace(/\'| |\.|\,/g,"");
+            //var trackCount = value.trackList.length;
+            var trackCount = value.trackCount;
+            //Dynamically inject list of albums into artist pages listview with links to their own dynamically injected album pages
+            $('#' + absoluteArtistName + 'AlbumList').append('<li data-filtertext="' + albumName + '"><a href="#' +                                               absoluteAlbumName + 'Page" data-transition="slide"><img src="' +                                               value.thumbnail + '">' +
+                                                             '<h2>' + value.albumName + '</h2>' + 
+                                                             '<p>' + artistName + '</p></a>' +
+                                                             '<a href="#popup' + absoluteAlbumName +'" data-rel="popup" data-position-to="window" data-transition="slidedown"></a>' + 
+                                                              '</li>');
+            //Dynamically inject album info into popups
+            $("#artistPopups").append('<div data-role="popup" id="popup' + absoluteAlbumName + 
+                                       '" data-theme="a" data-overlay-theme="b" class="ui-content" style="max-width:340px; padding-bottom:2em;">' +
+                                       '<h3>' + albumName + '</h3></br>' +
+                                       '<p><strong>Released: </strong>' + value.year + '</p></br>' +
+                                       '<p><strong>Length: </strong>' + value.albumLength + '</p></br>' +
+                                       '<p><strong>Tracks: </strong>' + trackCount + '</p></br>' +
+                                       '<a href="#" data-rel="back" data-transition="slideup" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Cancel</a>' +
+                                       '</div>');
+                                       
+            $('#popup' + absoluteAlbumName).popup();
+            //Dynamically inject album pages with info and a list of tracks
+            $('#artistPages').append('<div data-role="page" id="' + absoluteAlbumName + 'Page">' +
+                                    '<div data-role="header" data-position="fixed">' + 
+                                    '<h1>Sub Pop Discog</h1>' +
+                                    '<a href="#artistPanel" data-icon="bars" data-iconpos="notext"> >Menu</a>' +
+                                    '<a href="#" data-icon="back" data-rel="back" data-iconpos="notext"></a>' +
+                                    '</div>' + 
+                                    '<div data-role="content"> ' +
+                                    '<div class="ui-grid-b" ui-responsive>' +
+                                    '<div class="ui-block-a">' +
+                                    '<span>' + artistName +'</span>' +
+                                    '</div>' +
+                                    '<div class="ui-block-b" >' +
+                                    '<span>' + albumName + '</span>' +
+                                    '</div>' +
+                                    '<div class="ui-block-c" style="text-align: center;">' +
+                                    '<span><img src="' + value.thumbnail +'" style="height:80px;"></span>'+
+                                    '</div>' +
+                                    '<div class="ui-block-a">' +
+                                    '<span>Released:</span>' +
+                                    '</div>' +
+                                    '<div class="ui-block-b">' +
+                                    '<span>' + value.year + '</span>' +
+                                    '</div>' +
+                                    '<div class="ui-block-a">' +
+                                    '<span>Length:</span>' +
+                                    '</div>' +
+                                    '<div class="ui-block-b">' +
+                                    '<span>' + value.albumLength + '</span>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '<div data-role="collapsible">' +
+                                    '<h2>Tracks (' + trackCount + ')</h2>' +
+                                    '<ol id="' + absoluteAlbumName + 'List" data-role="listview" data-split-icon="youtube-play">' +
+                                    '</ol>' +
+                                    '</div>' +
+                                    '<div data-role="footer" data-id="main-footer" data-position="fixed" data-tap-toggle="false" >' +
+                                    '<div class="ui-grid-solo" style="text-align: center;">' +
+                                    '<div class="ui-block-a">' +
+                                    '<a href="#pageOne" data-transition="pop" class="ui-shadow ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" >Home</a>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '</div>' +
+                                    '</div>');
+
+            $.each(value.tracklist, function(key, value){
+                     
+               var trackName = value.trackName;
+               var vidUrl = value.trackUrl;
+               var passUrl = "'" + vidUrl + "'";
+               var absoluteTrackName = trackName.replace(/\'| |\.|&/g,"");
+               //Dynamically inject track list with info and links to their popup vids
+               //passes url data from JSON file to addVidUrl() function  
+               $('#' + absoluteAlbumName + 'List').append('<li><a href="#">' +
+                                                         '<h3>' + trackName + '</h3>' +
+                                                         '<p class="ui-li-aside"><strong>' + value.trackLength + 
+                                                         '</strong></p></a>' +
+                                                         '<a  onclick="addVidUrl(' + passUrl + ')" href="#popup" data-rel="popup" data-position-to="window" data-transition="flip">' +
+                                                         '</a></li>');
+            });
+         });
+    });
+   });
+
+  
+    
+   //YouTube API
+   var tag = document.createElement('script');
+
+   tag.src = "https://www.youtube.com/iframe_api";
+         
+   var firstScriptTag = document.getElementsByTagName('script')[0];
+         
+   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+   var player;
+   //create a blank iframe player in first popup which is available to all pages     
+   function onYouTubeIframeAPIReady() {
+     player = new YT.Player('player', {
+       height: '270',
+       width: '480',
+       videoId: '',
+       events: {
+       }
+     });
+   } 
+   //YouTube API problems with dynamic content, force the popup to close
+   function closeFunction(){ 
+     $( "#popup" ).popup( "close" );
+     $( "#popup" ).popup( "close" );
+   }
+   //function to target iframe popup and change vid url
+   function addVidUrl(data){
+     $("#player").attr("src", "https://www.youtube.com/embed/"+ data +"?enablejsapi=1");
+   }
+   //Code reuse
+   //makes the side panel available on all pages
+   //Ref: http://stackoverflow.com/questions/21857208/panel-not-working-in-all-pages-using-jquery-mobile
+   $(function () {
+      $("[data-role=panel]").enhanceWithin().panel();
+   });
+   //function to dynamically inject #popup    
+   $( function() {
+      $( "#popup" ).enhanceWithin().popup();
+   });
+
+   </script>
+   
+   </body>
+</html>

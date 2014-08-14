@@ -1,0 +1,26 @@
+{
+	"identifier": "who.ha.Mock",
+	"name": "WhoHa Mock",
+	"version": "1.0.0",
+	"author": "Vincent Redmond",
+	"company": "Red Vinyl INC.",
+	"copyright": "-Company copyright-",
+	"description": "WhoHa Application Navigation",
+	"scripts": "Javascript/init.js",
+	"keywords": "WhoHa Mock Nav",
+	"categories": [
+		"video",
+		"lifestyle",
+		"games"
+	],
+	"images": {
+		"header": {
+			"normal": "Images/header1.png"
+			
+		},
+		"about": "Images/about.png",
+		"icon": {
+			"192x192": "Images/icon3.png"
+		}
+	}
+}

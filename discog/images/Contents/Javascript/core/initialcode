@@ -1,0 +1,111 @@
+var testVin = "hey baby";
+
+var image;
+
+var count = 0;
+
+/*
+function tested(){
+	console.log("shamone");
+
+}
+
+var timeChanged = function(){
+  MAF.messages.store('numbers', [minutes,seconds]);
+
+};
+var clock = false;
+var mins;// = 2;
+var minutes;// = 2;
+var seconds;// = 0;
+var startClock;
+ 
+// calculate the seconds (don't change this! unless time progresses at a different speed for you...)
+var secs;// = 120;
+var countdown = function(setMinutes) {
+  clock = true;
+  secs = setMinutes * 60;
+  startClock = setInterval(function(){Decrement();},1000);
+  //MAF.messages.store('alphabet', seconds);
+};
+var Decrement = function() {
+  
+    if (!clock) {
+      clearInterval(startClock);
+      MAF.messages.store('numbers', [2,0]);
+      return;
+    }
+    else if (secs === 0) {
+      seconds =  '00';
+      timeChanged();
+      clearInterval(startClock);
+      setTimeout(function() {
+   MAF.messages.store('numbers', [2,0]);
+  MAF.application.loadView("view-HowView");
+}, 1000);
+      //setTimeout(MAF.messages.store('numbers', [2,0]), 2000);
+      //setTimeout(MAF.application.loadView("view-HowView"), 2000);
+      //MAF.messages.store('numbers', [2,0]);
+      //MAF.application.loadView("view-HowView");
+      return;
+    }
+    else{
+      if (secs<10) {
+        seconds = '0' + secs;
+        console.log(seconds);
+      }
+  
+
+    // if less than a minute remaining
+    else if (secs < 59) {
+      seconds = secs;
+      console.log(seconds);
+    } 
+    else {
+      minutes = getminutes();
+
+      console.log(minutes);
+      seconds = getseconds();
+      console.log(seconds);
+    }
+    timeChanged();
+    secs--;
+  }
+    
+    
+  
+};
+function getminutes() {
+  // minutes is seconds divided by 60, rounded down
+  mins = Math.floor(secs / 60);
+  return mins;
+}
+function getseconds() {
+  // take mins remaining (as seconds) away from total seconds remaining
+  return secs-Math.round(mins *60);
+}
+/*function countdown(){
+	setInterval(timer, 1000);
+}
+
+
+var counts=30;
+
+//var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
+
+//setInterval(function(){ timer(); },1000);
+
+function timer()
+{
+  counts=counts-1;
+  console.log(counts);
+  if (count <= 0)
+  {
+     //clearInterval(counter);
+     //counter ended, do something here
+     return;
+  }
+
+  //Do code for showing the number of seconds here
+}*/
+

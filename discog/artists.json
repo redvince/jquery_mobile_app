@@ -1,0 +1,1154 @@
+{
+  "artists":[
+    {
+      "artistName": "Band of Horses",
+      "thumbnail": "images/bandofhorses.jpg",
+      "bio": "American rock band formed in 2004",
+      "genres": ["Indie rock", "Southern rock", "Alternative country"],
+      "albums": [
+        {
+          "albumName": "Everything All the Time",
+          "thumbnail": "images/everythingallthetime.jpg",
+          "year": "2006",
+          "albumLength": "36:06",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "The First Song",
+            "trackLength": "3:43",
+            "trackUrl": "dl1tIH5ByDg"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Wicked Gil",
+            "trackLength": "2:57",
+            "trackUrl": "dl1tIH5ByDg"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "Our Swords",
+            "trackLength": "2:26",
+            "trackUrl": "dl1tIH5ByDg"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "The Funeral",
+            "trackLength": "5:32",
+            "trackUrl": "dl1tIH5ByDg"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Part One",
+            "trackLength": "2:36",
+            "trackUrl": "dl1tIH5ByDg"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "The Great Salt Lake",
+            "trackLength": "4:45",
+            "trackUrl": "dl1tIH5ByDg"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Weed Party",
+            "trackLength": "3:09",
+            "trackUrl": "dl1tIH5ByDg"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "I Go to the Barn Because I Like The",
+            "trackLength": "3:06",
+            "trackUrl": "dl1tIH5ByDg"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Monsters",
+            "trackLength": "5:21",
+            "trackUrl": "dl1tIH5ByDg"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "St. Augustine",
+            "trackLength": "2:41",
+            "trackUrl": "dl1tIH5ByDg"
+            }
+          ] 
+        },
+        {
+          "albumName": "Cease to Begin",
+          "thumbnail": "images/ceasetobegin.jpg",
+          "year": "2007",
+          "albumLength": "34:45",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Is There a Ghost",
+            "trackLength": "2:59",
+            "trackUrl": "JK716RqoUms"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Ode to LRC",
+            "trackLength": "4:16",
+            "trackUrl": "JK716RqoUms"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "No One's Gonna Love You",
+            "trackLength": "3:37",
+            "trackUrl": "JK716RqoUms"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Detlef Schrempf",
+            "trackLength": "4:28",
+            "trackUrl": "JK716RqoUms"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "The General Specific",
+            "trackLength": "3:07",
+            "trackUrl": "JK716RqoUms"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Lamb on the Lam",
+            "trackLength": "0:50",
+            "trackUrl": "JK716RqoUms"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Islands on the Coast",
+            "trackLength": "3:34",
+            "trackUrl": "JK716RqoUms"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Marry Song",
+            "trackLength": "3:23",
+            "trackUrl": "JK716RqoUms"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Cigarettes, Wedding Bands",
+            "trackLength": "4:35",
+            "trackUrl": "JK716RqoUms"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Window Blues",
+            "trackLength": "4:01",
+            "trackUrl": "JK716RqoUms"
+            }
+          ] 
+        },
+        {
+          "albumName": "Infinite Arms",
+          "thumbnail": "images/infinitearms.jpg",
+          "year": "2010",
+          "albumLength": "45:17",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Factory",
+            "trackLength": "4:35",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Compliments",
+            "trackLength": "3:28",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "Laredo",
+            "trackLength": "3:12",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Blue Beard",
+            "trackLength": "3:22",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "On My Way Back Home",
+            "trackLength": "3:31",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Infinite Arms",
+            "trackLength": "4:08",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Dilly",
+            "trackLength": "3:31",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Evening Kitchen",
+            "trackLength": "3:57",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Older",
+            "trackLength": "3:28",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "For Annabelle",
+            "trackLength": "3:06",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 11,
+            "trackName": "NW Apt.",
+            "trackLength": "3:01",
+            "trackUrl": "LX5AC07SyGI"
+            },
+            {
+            "trackNumber": 12,
+            "trackName": "Neighbor",
+            "trackLength": "5:58",
+            "trackUrl": "LX5AC07SyGI"
+            }
+          ] 
+        },
+        {
+          "albumName": "Mirage Rock",
+          "thumbnail": "images/miragerock.jpg",
+          "year": "2012",
+          "albumLength": "39:32",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Knock Knock",
+            "trackLength": "3:58",
+            "trackUrl": "7f6tLtaLZ6w"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "How to Live",
+            "trackLength": "3:27",
+            "trackUrl": "7f6tLtaLZ6w"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "Slow Cruel Hands of Time",
+            "trackLength": "3:50",
+            "trackUrl": "7f6tLtaLZ6w"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "A Little Biblical",
+            "trackLength": "2:54",
+            "trackUrl": "7f6tLtaLZ6w"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Shut-In Tourist",
+            "trackLength": "4:09",
+            "trackUrl": "7f6tLtaLZ6w"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Dumpster World",
+            "trackLength": "3:43",
+            "trackUrl": "7f6tLtaLZ6w"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Electric Music",
+            "trackLength": "3:32",
+            "trackUrl": "7f6tLtaLZ6w"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Everything's Gonna Be Undone",
+            "trackLength": "3:19",
+            "trackUrl": "7f6tLtaLZ6w"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Feud",
+            "trackLength": "2:56",
+            "trackUrl": "7f6tLtaLZ6w"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Long Vows",
+            "trackLength": "3:43",
+            "trackUrl": "7f6tLtaLZ6w"
+            },
+            {
+            "trackNumber": 11,
+            "trackName": "Heartbreak on the 101",
+            "trackLength": "4:01",
+            "trackUrl": "7f6tLtaLZ6w"
+            }
+          ] 
+        }
+      ]
+    },
+    {
+      "artistName": "Foals",
+      "thumbnail": "images/Foals.jpg",
+      "bio": "English Indie rock band from Oxford, England",
+      "genres": ["Indie rock", "Alternative rock", "Dance-punk"],
+      "albums": [
+        {
+          "albumName": "Antidotes",
+          "thumbnail": "images/antidotes.jpg",
+          "year": "2008",
+          "albumLength": "44:04",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "The French Open",
+            "trackLength": "3:46",
+            "trackUrl": "bH7gbmvxxn4"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Cassius",
+            "trackLength": "3:50",
+            "trackUrl": "bH7gbmvxxn4"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "Red Socks Pugie",
+            "trackLength": "5:09",
+            "trackUrl": "bH7gbmvxxn4"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Olympic Airways",
+            "trackLength": "4:19",
+            "trackUrl": "bH7gbmvxxn4"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Electric Bloom",
+            "trackLength": "4:55",
+            "trackUrl": "bH7gbmvxxn4"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Balloons",
+            "trackLength": "3:01",
+            "trackUrl": "bH7gbmvxxn4"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Heavy Water",
+            "trackLength": "4:32",
+            "trackUrl": "bH7gbmvxxn4"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Two Steps, Twice",
+            "trackLength": "4:39",
+            "trackUrl": "bH7gbmvxxn4"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Big Big Love",
+            "trackLength": "5:47",
+            "trackUrl": "bH7gbmvxxn4"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Like Swimming",
+            "trackLength": "1:58",
+            "trackUrl": "bH7gbmvxxn4"
+            },
+            {
+            "trackNumber": 11,
+            "trackName": "Tron",
+            "trackLength": "4:48",
+            "trackUrl": "bH7gbmvxxn4"
+            }
+          ] 
+        },
+        {
+          "albumName": "Total Life Forever",
+          "thumbnail": "images/totallifeforever.jpg",
+          "year": "2010",
+          "albumLength": "50:21",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Blue Blood",
+            "trackLength": "5:17",
+            "trackUrl": "rw6oWkCojpw"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Miami",
+            "trackLength": "3:42",
+            "trackUrl": "rw6oWkCojpw"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "Total Life Forever",
+            "trackLength": "3:18",
+            "trackUrl": "rw6oWkCojpw"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Black Gold",
+            "trackLength": "6:26",
+            "trackUrl": "rw6oWkCojpw"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Spanish Sahara",
+            "trackLength": "6:46",
+            "trackUrl": "rw6oWkCojpw"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "This Orient",
+            "trackLength": "4:06",
+            "trackUrl": "rw6oWkCojpw"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Fugue",
+            "trackLength": "0:49",
+            "trackUrl": "rw6oWkCojpw"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "After Glow",
+            "trackLength": "6:09",
+            "trackUrl": "rw6oWkCojpw"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Alabaster",
+            "trackLength": "4:00",
+            "trackUrl": "rw6oWkCojpw"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "2 Trees",
+            "trackLength": "5:11",
+            "trackUrl": "rw6oWkCojpw"
+            },
+            {
+            "trackNumber": 11,
+            "trackName": "What Remains",
+            "trackLength": "4:37",
+            "trackUrl": "rw6oWkCojpw"
+            }
+          ] 
+        },
+        {
+          "albumName": "Holy Fire",
+          "thumbnail": "images/holyfire.jpg",
+          "year": "2013",
+          "albumLength": "49:50",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Prelude",
+            "trackLength": "4:07",
+            "trackUrl": "LDUX4lQTses"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Inhaler",
+            "trackLength": "4:54",
+            "trackUrl": "LDUX4lQTses"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "My Number",
+            "trackLength": "4:03",
+            "trackUrl": "LDUX4lQTses"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Bad Habit",
+            "trackLength": "4:40",
+            "trackUrl": "LDUX4lQTses"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Everytime",
+            "trackLength": "4:04",
+            "trackUrl": "LDUX4lQTses"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Late Night",
+            "trackLength": "5:27",
+            "trackUrl": "LDUX4lQTses"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Out of the Woods",
+            "trackLength": "3:25",
+            "trackUrl": "LDUX4lQTses"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Milk & Black Spiders",
+            "trackLength": "5:17",
+            "trackUrl": "LDUX4lQTses"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Providence",
+            "trackLength": "4:08",
+            "trackUrl": "LDUX4lQTses"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Stepson",
+            "trackLength": "4:49",
+            "trackUrl": "LDUX4lQTses"
+            },
+            {
+            "trackNumber": 11,
+            "trackName": "Moon",
+            "trackLength": "4:53",
+            "trackUrl": "LDUX4lQTses"
+            }
+          ] 
+        }
+      ]
+    },
+    {
+      "artistName": "Nirvana",
+      "thumbnail": "images/nirvana.jpg",
+      "bio": "90's Grunge band from Seattle. They were deadly so they were.",
+      "genres": ["Grunge", "Rock", "Alt"],
+      "albums": [
+        {
+          "albumName": "Bleach",
+          "thumbnail": "images/bleach.jpg",
+          "year": "1989",
+          "albumLength": "42:37",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Blew",
+            "trackLength": "2:55",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Floyd the Barber",
+            "trackLength": "2:18",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "About a Girl",
+            "trackLength": "2:48",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "School",
+            "trackLength": "2:42",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Love Buzz",
+            "trackLength": "3:35",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Paper Cuts",
+            "trackLength": "4:06",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Negative Creep",
+            "trackLength": "2:56",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Scoff",
+            "trackLength": "4:10",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Swap Meet",
+            "trackLength": "3:03",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Mr. Moustache",
+            "trackLength": "3:24",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 11,
+            "trackName": "Sifting",
+            "trackLength": "5:22",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 12,
+            "trackName": "Big Cheese",
+            "trackLength": "3:42",
+            "trackUrl": "97KwmvleRok"
+            },
+            {
+            "trackNumber": 13,
+            "trackName": "Downer",
+            "trackLength": "1:43",
+            "trackUrl": "97KwmvleRok"
+            }
+          ] 
+        },
+        {
+          "albumName": "Nevermind",
+          "thumbnail": "images/nevermind.jpg",
+          "year": "1991",
+          "albumLength": "54:17",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Smells Like Teen Spirit",
+            "trackLength": "5:01",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "In Bloom",
+            "trackLength": "4:14",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "Come as You Are",
+            "trackLength": "3:39",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Breed",
+            "trackLength": "3:03",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Lithium",
+            "trackLength": "4:17",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Polly",
+            "trackLength": "2:57",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Territorial Pissings",
+            "trackLength": "2:22",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Drain You",
+            "trackLength": "3:43",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Lounge Act",
+            "trackLength": "2:36",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Stay Away",
+            "trackLength": "3:32",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 11,
+            "trackName": "On a Plain",
+            "trackLength": "3:16",
+            "trackUrl": "hTWKbfoikeg"
+            },
+            {
+            "trackNumber": 12,
+            "trackName": "Something in the Way",
+            "trackLength": "3:51",
+            "trackUrl": "hTWKbfoikeg"
+            }
+          ] 
+        },
+        {
+          "albumName": "In Utero",
+          "thumbnail": "images/inutero.jpg",
+          "year": "1993",
+          "albumLength": "48:49",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Serve the Servants",
+            "trackLength": "3:36",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Scentless Apprentice",
+            "trackLength": "3:48",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "Heart-Shaped Box",
+            "trackLength": "4:41",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Rape Me",
+            "trackLength": "2:50",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Frances Farmer Will Have Her Revenge on Seattle",
+            "trackLength": "4:09",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Dumb",
+            "trackLength": "2:32",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Very Ape",
+            "trackLength": "1:56",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Milk It",
+            "trackLength": "3:55",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Pennyroyal Tea",
+            "trackLength": "3:37",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Radio Friendly Unit Shifter",
+            "trackLength": "4:51",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 11,
+            "trackName": "tourette's",
+            "trackLength": "1:35",
+            "trackUrl": "ogsEw7wuimk"
+            },
+            {
+            "trackNumber": 12,
+            "trackName": "All Apologies",
+            "trackLength": "3:51",
+            "trackUrl": "ogsEw7wuimk"
+            }
+          ] 
+        }
+      ]
+    },
+    {
+      "artistName": "The Postal Service",
+      "thumbnail": "images/thepostalservice.jpg",
+      "bio": "American rock musical supergroup.",
+      "genres": ["Indie rock", "Indietronica", "Indie pop", "Electropop"],
+      "albums": [
+        {
+          "albumName": "Give Up",
+          "thumbnail": "images/giveup.jpg",
+          "year": "2003",
+          "albumLength": "44:59",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "The District Sleeps Alone Tonight",
+            "trackLength": "4:44",
+            "trackUrl": "xUIBnmdJJ50"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Such Great Heights",
+            "trackLength": "4:26",
+            "trackUrl": "xUIBnmdJJ50"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "Sleeping In",
+            "trackLength": "4:21",
+            "trackUrl": "xUIBnmdJJ50"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Nothing Better",
+            "trackLength": "3:46",
+            "trackUrl": "xUIBnmdJJ50"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Recycled Air",
+            "trackLength": "4:29",
+            "trackUrl": "xUIBnmdJJ50"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Clark Gable",
+            "trackLength": "4:54",
+            "trackUrl": "xUIBnmdJJ50"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "We Will Become Silhouettes",
+            "trackLength": "5:00",
+            "trackUrl": "xUIBnmdJJ50"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "This Place Is a Prison",
+            "trackLength": "3:54",
+            "trackUrl": "xUIBnmdJJ50"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Brand New Colony",
+            "trackLength": "4:12",
+            "trackUrl": "xUIBnmdJJ50"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Natural Anthem",
+            "trackLength": "5:07",
+            "trackUrl": "xUIBnmdJJ50"
+            }
+          ] 
+        }
+      ]
+    },
+    {
+      "artistName": "The Shins",
+      "thumbnail": "images/theshins.jpg",
+      "bio": " American Indie rock band from Albuquerque, New Mexico.",
+      "genres": ["Indie rock", "Alternative rock", "Folk rock", "Indie pop"],
+      "albums": [
+        {
+          "albumName": "Oh, Iverted World",
+          "thumbnail": "images/ohinvertedworld.jpg",
+          "year": "2001",
+          "albumLength": "33:31",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Caring Is Creepy",
+            "trackLength": "3:19",
+            "trackUrl": "PUMkxH03V5c"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "One by One All Day",
+            "trackLength": "4:08",
+            "trackUrl": "PUMkxH03V5c"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "Weird Divide",
+            "trackLength": "1:57",
+            "trackUrl": "PUMkxH03V5c"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Know Your Onion",
+            "trackLength": "2:28",
+            "trackUrl": "PUMkxH03V5c"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Girl Inform Me",
+            "trackLength": "2:19",
+            "trackUrl": "PUMkxH03V5c"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "New Slang",
+            "trackLength": "3:49",
+            "trackUrl": "PUMkxH03V5c"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "The Celibate Life",
+            "trackLength": "1:49",
+            "trackUrl": "PUMkxH03V5c"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Girl on the Wing",
+            "trackLength": "2:48",
+            "trackUrl": "PUMkxH03V5c"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Your Algebra",
+            "trackLength": "2:22",
+            "trackUrl": "PUMkxH03V5c"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Pressed in a Book",
+            "trackLength": "2:54",
+            "trackUrl": "PUMkxH03V5c"
+            },
+            {
+            "trackNumber": 11,
+            "trackName": "The Past and Pending",
+            "trackLength": "5:21",
+            "trackUrl": "PUMkxH03V5c"
+            }
+          ] 
+        },
+        {
+          "albumName": "Chutes Too Narrow",
+          "thumbnail": "images/chutestoonarrow.jpg",
+          "year": "2003",
+          "albumLength": "33:50",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Kissing the Lipless",
+            "trackLength": "3:19",
+            "trackUrl": "FMzKgB1cf24"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Mine's Not a High Horse",
+            "trackLength": "3:20",
+            "trackUrl": "FMzKgB1cf24"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "So Says I",
+            "trackLength": "2:48",
+            "trackUrl": "FMzKgB1cf24"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Young Pilgrims",
+            "trackLength": "2:47",
+            "trackUrl": "FMzKgB1cf24"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Saint Simon",
+            "trackLength": "4:25",
+            "trackUrl": "FMzKgB1cf24"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Fighting in a Sack",
+            "trackLength": "2:26",
+            "trackUrl": "FMzKgB1cf24"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Pink Bullets",
+            "trackLength": "3:53",
+            "trackUrl": "FMzKgB1cf24"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Turn a Square",
+            "trackLength": "3:11",
+            "trackUrl": "FMzKgB1cf24"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Gone for Good",
+            "trackLength": "3:13",
+            "trackUrl": "FMzKgB1cf24"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Those to Come",
+            "trackLength": "4:24",
+            "trackUrl": "FMzKgB1cf24"
+            }
+          ] 
+        },
+        {
+          "albumName": "Wincing The Night Away",
+          "thumbnail": "images/wincingthenightaway.jpg",
+          "year": "2007",
+          "albumLength": "41:47",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "Sleeping Lessons",
+            "trackLength": "3:58",
+            "trackUrl": "42HqbyTc6uA"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Australia",
+            "trackLength": "3:56",
+            "trackUrl": "42HqbyTc6uA"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "Pam Berry",
+            "trackLength": "0:56",
+            "trackUrl": "42HqbyTc6uA"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Phantom Limb",
+            "trackLength": "4:47",
+            "trackUrl": "42HqbyTc6uA"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "Sea Legs",
+            "trackLength": "5:22",
+            "trackUrl": "42HqbyTc6uA"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "Red Rabbits",
+            "trackLength": "4:29",
+            "trackUrl": "42HqbyTc6uA"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "Turn on Me",
+            "trackLength": "3:41",
+            "trackUrl": "42HqbyTc6uA"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Black Wave",
+            "trackLength": "3:19",
+            "trackUrl": "42HqbyTc6uA"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "Spilt Needles",
+            "trackLength": "3:45",
+            "trackUrl": "42HqbyTc6uA"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Girl Sailor",
+            "trackLength": "3:44",
+            "trackUrl": "42HqbyTc6uA"
+            },
+            {
+            "trackNumber": 11,
+            "trackName": "A Comet Appears",
+            "trackLength": "3:49",
+            "trackUrl": "42HqbyTc6uA"
+            }
+          ] 
+        },
+        {
+          "albumName": "Port of Morrow",
+          "thumbnail": "images/portofmorrow.jpg",
+          "year": "2012",
+          "albumLength": "40:13",
+          "trackList": [
+            {
+            "trackNumber": 1,
+            "trackName": "The Rifle's Spiral",
+            "trackLength": "3:30",
+            "trackUrl": "jyqWjl7GkCE"
+            },
+            {
+            "trackNumber": 2,
+            "trackName": "Simple Song",
+            "trackLength": "4:15",
+            "trackUrl": "jyqWjl7GkCE"
+            },
+            {
+            "trackNumber": 3,
+            "trackName": "It's Only Life",
+            "trackLength": "4:02",
+            "trackUrl": "jyqWjl7GkCE"
+            },
+            {
+            "trackNumber": 4,
+            "trackName": "Bait and Switch",
+            "trackLength": "3:23",
+            "trackUrl": "jyqWjl7GkCE"
+            },
+            {
+            "trackNumber": 5,
+            "trackName": "September",
+            "trackLength": "3:33",
+            "trackUrl": "jyqWjl7GkCE"
+            },
+            {
+            "trackNumber": 6,
+            "trackName": "No Way Down",
+            "trackLength": "3:16",
+            "trackUrl": "jyqWjl7GkCE"
+            },
+            {
+            "trackNumber": 7,
+            "trackName": "For a Fool",
+            "trackLength": "3:57",
+            "trackUrl": "jyqWjl7GkCE"
+            },
+            {
+            "trackNumber": 8,
+            "trackName": "Fall of '82",
+            "trackLength": "3:48",
+            "trackUrl": "jyqWjl7GkCE"
+            },
+            {
+            "trackNumber": 9,
+            "trackName": "40 Mark Strasse",
+            "trackLength": "4:39",
+            "trackUrl": "jyqWjl7GkCE"
+            },
+            {
+            "trackNumber": 10,
+            "trackName": "Port of Morrow",
+            "trackLength": "5:50",
+            "trackUrl": "jyqWjl7GkCE"
+            }
+          ] 
+        }
+      ]
+    }
+  ]
+}  
